@@ -6,7 +6,7 @@ import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 
 @SuppressLint("ClickableViewAccessibility")
-class ViewToolUtils(clContainerMain: ConstraintLayout, onKeyDownTouchEventListener: OnKeyDownTouchEventListener) {
+open class ViewToolUtils(clContainerMain: ConstraintLayout, onKeyDownTouchEventListener: OnKeyDownTouchEventListener) {
 
     private var pressedX = 0
     private var pressedY = 0
